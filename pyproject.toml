@@ -1,0 +1,19 @@
+[project]
+name = "color_points_dl"
+version = "0.1.0"
+description = "Interactive colorization with sparse color points (Conditional U-Net)."
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+dependencies = [
+  "numpy",
+  "opencv-python",
+  "torch",
+  "tqdm",
+  "matplotlib",
+  "pillow",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
