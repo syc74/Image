@@ -146,7 +146,7 @@ $$
 The TV term is used to suppress high-frequency noise. In practice, we set:
 
 - $\lambda_{\text{hint}} = 0$, meaning that no additional penalty is imposed on hint points;
-- $\lambda_{\text{tv}} = 0.01$, meaning that a small penalty is imposed on high-frequency components.
+- $\lambda_{\text{tv}} = 0$, meaning that a small penalty is imposed on high-frequency components.
 
 ## U-Net-Based Image Reconstruction
 
